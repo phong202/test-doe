@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    padding: 20px;
+}
+
+#header .header__container {
+    background-color: rgba(247, 117, 117, 0.5);
+    max-width: 100%;
+    min-height: 300px;
+    padding: 40px;
+    position: relative;
+
+
+}
+
+.header__container .header__container_content {
+    display: inline-block;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 40px;
+}
+
+.header__container_content .header__name,
+.header__target  {
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+.header__container_content .header__position
+{
+    border-bottom: 4px solid white;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.header__container .header__img {
+    max-width: 100%;
+    width: 300px;
+    float: right;
+    border-radius: 50%;
+    height: 300px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+
+}
+
+/* done header */
+
+#content .content__container {
+
+    min-height: 500px;
+}
+    
+#content .content__level__skill,
+.content__exp__about {
+    min-height: 500px;
+    padding: 40px 20px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content__level__skill .content__level,
+.content__exp {
+    padding-bottom: 36px;
+}
+
+.content__level__skill .content__level__h2,
+.h2__skill, .content__exp__h2,
+.h2__about {
+    padding: 10px;
+    background-color: rgba(247, 117, 117, 0.5);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.content__level .content__level__1,
+.skill__all,
+.about__all {
+margin-top: 20px;
+padding: 0 20px;
+}
+
+.content__level__1 .content__level__year,
+.content__exp__year {
+    line-height: 100px;
+    font-weight: 800;
+}
+
+
+.content__level__1 .school__name,
+.cty__name {
+    padding: 20px 0;
+    
+}
+
+.content__skill__all .skill__1,
+.phone {
+    display: inline-block;
+}
+.skill__all .skill__level {
+    float: right;
+    margin-right: 120px;
+}
+
+
+#content .content__exp__about {
+    background-color: rgba(247, 117, 117, 0.5);
+    color: white;
+}
+
+
+/* done left */
+.content__exp__about {
+    margin-top: 40px;
+    padding: 10px 20px;
+}
+
+.content__exp__about .content__exp {
+    padding-bottom: 85px;
+}
+
+/* done content */
+
+/* star form */
+#form .form__all {
+    padding-top: 50%;
+background: url(/img/istockphoto-1180650814-612x612.jpeg) top center / cover no-repeat;
+margin-top: 20px;
+max-width: 100%;
+position: relative;
+}
+
+#form .form__container {
+    position: absolute;
+    right: 60px;
+    text-align: center;
+    top: 30%;
+    
+}
+
+.form__container .form__h2 {
+    font-size: 36px;
+    color:white;
+    margin-bottom: 20px;
+
+}
+
+.form__container .form .input {
+    display: block;
+    margin: 8px;
+    width: 500px;
+    padding: 20px 20px;
+    border-radius: 6px;
+    border: none;
+    max-width: 100%;
+
+}
+
+.form__container .button {
+padding: 15px 80px;
+cursor: pointer;
+text-transform: uppercase;
+
+}
+
+.form__container .button:hover {
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+
+
+
+
+
+
